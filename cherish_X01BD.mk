@@ -18,6 +18,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Official
 CHERISH_BUILD_TYPE:= OFFICIAL
 
+# ZenParts
+$(call inherit-product-if-exists, packages/apps/ZenParts/zenparts.mk)
+
 # Build with Gapps
 WITH_GMS := true
 

@@ -7,6 +7,9 @@
 # Inherit from sdm660-common
 include device/asus/sdm660-common/BoardConfigCommon.mk
 
+# Inherit from ZenParts
+include packages/apps/ZenParts/BoardConfigZen.mk
+
 DEVICE_PATH := device/asus/X01BD
 
 # Assert
