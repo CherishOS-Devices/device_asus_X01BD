@@ -4,7 +4,7 @@
     "target_path": "device/asus/sdm660-common"
   },
   {
-    "repository": "kernel_asus_X01BD",
+    "repository": "kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660"
   },
   {
